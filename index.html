@@ -3,13 +3,71 @@
 <head>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta name="viewport" content="width=device-width, initial scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <title>LearnerHome</title>
 </head>
 <body>
-    <section class="footer bg-warning">
-        <div class="container text-light">
+    <!--Naviagtion-->
+    <nav class="navbar navbar-expand-md navbar-light bg-info fixed-top">
+    <div class="container navigate">
+        <h1><a class="navbar-brand" href="#">LearnerHomer</a></h1>
+        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navigation">
+            <div class="navbar-nav ml-auto">
+                <a class="nav-item nav-link active" href="#">Home</a>
+                <a class="nav-item nav-link" href="#">Courses</a>
+                <a class="nav-item nav-link" href="#">About Us</a>
+                <a class="nav-item nav-link" href="#">Contact</a>
+            </div>
+        </div>
+    </div>
+    </nav><br><br><br>
+
+    <!--Jumbotron-->
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1 class="display-4">Fluid jumbotron</h1>
+                    <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+                </div>
+                <!-- <div class="col-md-4">
+                    <img src="images/logo.png">
+                </div> -->
+
+                <div class="offset-md-4 col-md-2 align-self-center">
+                    <span role="button" class="btn btn-block btn-primary nav-link">Course
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Carousel-->
+    <div class="container slider">
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+            <div id="" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#" data-slide-to="0" class="active"></li>
+                </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/download-small.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Footer section-->
+    <footer class="footer bg-info">
+        <div class="container foot text-light">
             <div class="row">
                 <div class="col-md-4">
                     <h3 class="text-dark"><strong>LearnerHome</strong></h3>
@@ -30,7 +88,14 @@
             <hr>
             <p class="copyright text-center bg-dark">All Right Reserved, &copy; 2020</p>
         </div>
-    </section>
+    </footer>
     
+
+
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
 </body>
 </html>
